@@ -5,7 +5,10 @@ def calcdistance(point1, point2):
     return math.sqrt((point1[0] - point2[0])**2 + (point1[1] - point2[1])**2 + (point1[2] - point2[2])**2)
 if("badapple" not in os.listdir()):
     os.mkdir("badapple")
-os.chdir("./badapple")
+    os.chdir("./badapple")
+    os.system("")
+else:
+    os.chdir("./badapple")
 files = os.listdir()
 for f in files:
     if(f[-4:] != ".jpg"):
