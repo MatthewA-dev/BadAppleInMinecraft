@@ -1,0 +1,10 @@
+name: VideoPlayer
+version: 1.0-SNAPSHOT
+main: matthewa.badappleinminecraft.VideoPlayer
+api-version: 1.16
+description: Plays a video from the server's folder
+commands:
+  StartVideo:
+    description: starts the video
+  StopVideo:
+    description: stops the video
